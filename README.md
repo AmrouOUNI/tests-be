@@ -32,4 +32,16 @@ $ copier/coller la/les commande(s) effectuée(s) ici
   copier/coller la requête ici
 ```
 
+8. Arrêter puis relancer le service *posts* en mode debogage.
+
+```bash
+$ Insérer la commande nécessaire au lancement du debogage
+```
+
+9. Insérer un point d'arrêt à la ligne 34 du fichier `/apps/posts/src/graphql/posts.service.ts` puis attachez-vous au port de débogage. Réexecuter la dernière requête depuis le Playground.
+
+>>>
+Indiquez le nombre de fois où le point d'arrêt a été atteint ici : 
+>>>
+
 Merci, vous pouvez maintenant basculer sur la branche `test-3`
