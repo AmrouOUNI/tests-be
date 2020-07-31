@@ -1,19 +1,35 @@
-## Description
+### Test 2
 
-[Nest](https://github.com/nestjs/nest) Typescript framework [Monorepo](https://docs.nestjs.com/cli/overview).
+1. Installer les modules/packages nécessaires au fonctionnement de l'application.
 
+```bash
+$ copier/coller la commande effectuée ici
+```
 
-## Tests
+2. Executer les scripts start:users puis start:posts et enfin start avec npm dans des terminaux distincts.
 
-Avant de débuter les épreuves merci d'installer les [outils](#Outils) nécessaires à leur réalisation.
+```bash
+$ copier/coller la/les commande(s) effectuée(s) ici
+```
 
-### Outils
+4. Lancer GraphQL Playground depuis la gateway principale.
 
-* [Docker Desktop](https://www.docker.com/products/docker-desktop)
-* [Node.js](https://nodejs.org/en/download/package-manager/)
-* [VSCode](https://code.visualstudio.com/download)
-* [Nest CLI](https://deploy-preview-1213--docs-nestjs.netlify.app/cli/overview) => `npm install -g @nestjs/cli`
+5. Effectuer une requête pour afficher uniquement l'identifiant et le nom de l'utilisateur ayant l'*identifiant 1*.
 
-Effectuez un fork du repo. sur votre compte [Github](https://github.com).
+```graphql
+  copier/coller la requête effectuée ici
+```
 
-Vous pouvez maintenant commencer en vous rendant sur la branche `test-1`
+6. Modifier la requête actuelle pour afficher tous les titres des Posts de cet utilisateur.
+
+```graphql
+  copier/coller la requête ici
+```
+
+7. Modifier la requête en utilisant un fragment pour afficher les Posts de cet utilisateur.
+
+```graphql
+  copier/coller la requête ici
+```
+
+Merci, vous pouvez maintenant basculer sur la branche `test-3`
