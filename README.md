@@ -38,7 +38,7 @@ $ copier/coller la/les commande(s) effectuée(s) ici
 $ Insérer la commande nécessaire au lancement du debogage
 ```
 
-9. Insérer un point d'arrêt à la ligne 34 du fichier `/apps/posts/src/graphql/posts.service.ts` puis attachez-vous au port de débogage. Réexecuter la dernière requête depuis le Playground.
+9. Insérer un point d'arrêt à la ligne 34 du fichier `/apps/posts/src/graphql/post.service.ts` puis attachez-vous au port de débogage. Réexecuter la dernière requête depuis le Playground.
 
 >>>
 Indiquez le nombre de fois où le point d'arrêt a été atteint ici : 
