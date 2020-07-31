@@ -7,6 +7,6 @@
 $ Insérer la commande ici
 ```
 
-Merci, vous pouvez maintenant basculer sur la branche `test-4`.
+Merci, vous pouvez maintenant sauvegarder vos réponses et basculer sur la branche `test-4`.
 
 N'oubliez pas de sauvegarder vos réponses !
