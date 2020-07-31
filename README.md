@@ -12,4 +12,4 @@ Votre descriptif ici
 copier/coller le code *Markdown Mermaid* ici
 ```
 
-Merci, vous pouvez maintenant basculer sur la branche `test-2`
+Merci, vous pouvez maintenant sauvegarder vos réponses et basculer sur la branche `test-2`
