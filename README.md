@@ -44,4 +44,4 @@ $ Insérer la commande nécessaire au lancement du debogage
 Indiquez le nombre de fois où le point d'arrêt a été atteint ici : 
 >>>
 
-Merci, vous pouvez maintenant basculer sur la branche `test-3`
+Merci, vous pouvez maintenant sauvegarder vos réponses et basculer sur la branche `test-3`
