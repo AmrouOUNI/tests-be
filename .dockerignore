@@ -1,0 +1,17 @@
+.git
+.github
+.gitlab
+.vscode
+coverage
+impactiv
+README.md
+
+# Docker file
+docker
+*.yml
+
+# Node Files #
+node_modules
+dist
+npm-debug.log
+npm-debug.log.*
