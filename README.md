@@ -1,19 +1,12 @@
-## Description
+## Test 3
 
-[Nest](https://github.com/nestjs/nest) Typescript framework [Monorepo](https://docs.nestjs.com/cli/overview).
+1. Editer le fichier *docker-compose.yml* afin de pouvoir executer tous les services de l'application en se basant sur le fichier `/docker/Dockerfile` pour l'execution des containers et en montant le repertoire local vers le volume du/des containers pour plus de simplicité.
 
+2. Indiquer la commande pour lancer les services docker
+```bash
+$ Insérer la commande ici
+```
 
-## Tests
+Merci, vous pouvez maintenant basculer sur la branche `test-4`.
 
-Avant de débuter les épreuves merci d'installer les [outils](#Outils) nécessaires à leur réalisation.
-
-### Outils
-
-* [Docker Desktop](https://www.docker.com/products/docker-desktop)
-* [Node.js](https://nodejs.org/en/download/package-manager/)
-* [VSCode](https://code.visualstudio.com/download)
-* [Nest CLI](https://deploy-preview-1213--docs-nestjs.netlify.app/cli/overview) => `npm install -g @nestjs/cli`
-
-Effectuez un fork du repo. sur votre compte [Github](https://github.com).
-
-Vous pouvez maintenant commencer en vous rendant sur la branche `test-1`
+N'oubliez pas de sauvegarder vos réponses !
