@@ -1,6 +1,6 @@
 ## Description
 
-[Nest](https://github.com/nestjs/nest) Typescript framework [Monorepo](https://docs.nestjs.com/cli/overview).
+[Nest](https://github.com/nestjs/nest) Typescript framework [Monorepo](https://docs.nestjs.com/cli/monorepo#monorepo-mode).
 
 
 ## Tests
