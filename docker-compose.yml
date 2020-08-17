@@ -2,5 +2,44 @@
 version: '3.7'
 
 services:
-
-  
+  gateway-service:
+    build:
+      context: ./docker
+    volumes:
+      - type: bind
+        source: ./
+        target: /app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - users-service
+      - posts-service
+    networks:
+      - microservices
+    command: npm run start
+  users-service:
+    build: ./docker
+    volumes:
+      - type: bind
+        source: ./
+        target: /app
+    ports:
+      - "3001:3001"
+    networks:
+      - microservices
+    command: npm run start:users
+  posts-service:
+    build: ./docker
+    volumes:
+      - type: bind
+        source: ./
+        target: /app
+    ports:
+      - "3002:3002"
+    networks:
+      - microservices
+    command: npm run start:posts
+networks:
+  microservices:
+volumes:
+    nodemodules:
