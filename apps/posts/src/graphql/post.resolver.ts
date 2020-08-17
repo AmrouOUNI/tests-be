@@ -1,4 +1,4 @@
-import { Query, Args, Resolver, ResolveField, Parent } from '@nestjs/graphql';
+import { Query, Args, Resolver, ResolveField, Parent, Mutation } from '@nestjs/graphql';
 import { PostService } from './post.service';
 import { Post } from './post.entity';
 import { User } from './user.entity';
@@ -15,6 +15,15 @@ export class PostResolver {
   @Query(returns => [Post])
   public getPosts() {
     return this.postService.all();
+  }
+
+  @Mutation(returns => Post)
+  createPost(
+    @Args('id') id: number,
+    @Args('titre') titre: string,
+    @Args('authorId') authorId: string,
+  ) {
+    return this.postService.create({ id, titre, authorId });
   }
 
   @ResolveField(of => User)

@@ -23,7 +23,7 @@ export class PostService {
       id: 4,
       titre: 'post 3',
       authorId: '1',
-    }
+    },
   ];
 
   findOne(id: number) {
@@ -32,6 +32,12 @@ export class PostService {
 
   forAuthor(id: string) {
     return this.posts.filter(p => p.authorId === id);
+  }
+
+  create(input: Post) {
+    const item = new Post(input);
+    this.posts.push(item);
+    return item;
   }
 
   all() {
